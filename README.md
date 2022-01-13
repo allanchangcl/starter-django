@@ -8,3 +8,6 @@ python -m pip install -U django
 
 Python 3.9.5 64-bit ('.venv':venv)
 pip freeze > requirements.txt
+git branch -M main
+git remote add origin git@github.com:allanchangcl/starter-django.git
+git push -u origin main
