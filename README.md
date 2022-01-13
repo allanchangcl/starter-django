@@ -11,3 +11,6 @@ pip freeze > requirements.txt
 git branch -M main
 git remote add origin git@github.com:allanchangcl/starter-django.git
 git push -u origin main
+
+python -m pip install -U -r requirements.txt
+home/allanchangcl/webdev/playground/mydjango/.venv/bin/python -m pip install --upgrade pip
